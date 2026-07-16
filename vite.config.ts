@@ -17,7 +17,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/main.ts'), // Your library's entry point
       name: 'MyChartLibrary', // Global variable name for UMD/IIFE formats
-      fileName: 'my-charts', // Output filename (e.g., my-charts.js)
+      fileName: 'ht-ae-dc-ranking', // Output filename (e.g., my-charts.js)
       formats: ['es', 'umd'], // Outputs modern ES Modules and compatible UMD formats
     },
     // 2. Prevent Vite from generating separate CSS bundles
